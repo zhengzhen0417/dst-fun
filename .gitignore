@@ -1,0 +1,6 @@
+# Ignore the compiled files
+dst-info
+
+# Ignore .dst files
+*.dst
+*.DST
