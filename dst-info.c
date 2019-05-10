@@ -1,4 +1,4 @@
-/**
+ /**
  * dst-info.c
  *   Print out information on a .dst file (or so I hope).
  */
@@ -181,7 +181,7 @@ process_header (FILE *source)
 int
 main (int argc, char *argv[])
 {
-  FILE *source = stdin;
+  FILE *source = fopen("Star.DST","rb");
   process_header (source);
   process_data (source);
   return 0;
